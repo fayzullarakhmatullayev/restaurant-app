@@ -22,7 +22,16 @@ npm run build
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-In this project as backend is used json-serever
-Before initialize the app in another command terminal type following command
+## In this project as backend is used json-server
 
-json-serever --watch db.json
+## To install json server
+
+```
+npm i json-server
+```
+
+## Before initialize the app in another command terminal type following command
+
+```
+json-server --watch db.json
+```
