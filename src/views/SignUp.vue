@@ -48,7 +48,7 @@ export default {
         );
 
         alert("User has been successfully created");
-        localStorage.setItem("user", JSON.stringify(data));
+        localStorage.setItem("user_restaurant", JSON.stringify(data));
         this.user = {
           name: "",
           email: "",

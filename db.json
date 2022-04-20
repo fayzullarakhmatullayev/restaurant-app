@@ -17,6 +17,12 @@
       "email": "robiya@test.ru",
       "password": "123123",
       "id": 3
+    },
+    {
+      "name": "Abdulla",
+      "email": "abdulla@mail.ru",
+      "password": "123123",
+      "id": 4
     }
   ],
   "restaurants": [
@@ -51,16 +57,10 @@
       "id": 10
     },
     {
-      "name": "soms",
+      "name": "somsa",
       "contact": "123123",
       "address": "city tashkent",
       "id": 11
-    },
-    {
-      "name": "another new",
-      "contact": "123789",
-      "address": "new and new ",
-      "id": 13
     }
   ]
 }

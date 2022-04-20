@@ -27,7 +27,7 @@ export default {
   components: { TheHeader },
   data() {
     return {
-      name: JSON.parse(localStorage.getItem("user")).name,
+      name: JSON.parse(localStorage.getItem("user_restaurant")).name,
       restuarant: {
         name: "",
         contact: "",

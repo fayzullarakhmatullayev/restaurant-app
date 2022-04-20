@@ -37,7 +37,7 @@ export default {
   components: { TheHeader },
   data() {
     return {
-      name: JSON.parse(localStorage.getItem("user")).name,
+      name: JSON.parse(localStorage.getItem("user_restaurant")).name,
       restaurans: [],
     };
   },
@@ -50,7 +50,7 @@ export default {
       }
     },
     async loadData() {
-      const user = localStorage.getItem("user");
+      const user = localStorage.getItem("user_restaurant");
       if (!user) {
         this.$router.push("/signup");
       }

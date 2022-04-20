@@ -40,7 +40,7 @@ export default {
           `http://localhost:3000/users?email=${this.user.email}&password=${this.user.password}`
         );
         if (res.status === 200 && res.data.length > 0) {
-          localStorage.setItem("user", JSON.stringify(res.data[0]));
+          localStorage.setItem("user_restaurant", JSON.stringify(res.data[0]));
           this.$router.push("/");
         }
       } else {
@@ -49,7 +49,7 @@ export default {
     },
   },
   mounted() {
-    const user = localStorage.getItem("user");
+    const user = localStorage.getItem("user_restaurant");
     if (user) {
       this.$router.push("/");
     }
