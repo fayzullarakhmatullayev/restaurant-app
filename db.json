@@ -27,12 +27,6 @@
   ],
   "restaurants": [
     {
-      "name": "Burger King",
-      "contact": 1111,
-      "address": "Noida sector 50",
-      "id": 1
-    },
-    {
       "id": 2,
       "name": "Dominos",
       "contact": 222222,

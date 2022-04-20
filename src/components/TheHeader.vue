@@ -20,8 +20,8 @@
 export default {
   methods: {
     logout() {
-      localStorage.removeItem("user");
-      this.$router.push("login");
+      localStorage.removeItem("user_restaurant");
+      this.$router.push("/login");
     },
   },
 };
